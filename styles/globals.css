@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700&display=swap');
+
+body{
+    font-family: 'Spartan', sans-serif;
+}
+.Home{
+    background-Image:url('../public/images/hero4.png')
+}
+.Home button{
+    background-image: url('../public/images/button.png');
+}
+.discount{
+    background-Image:url('../public/images/banner/b2.jpg')
+}
+.deal_1
+{
+    background-Image:url('../public/images/banner/b17.jpg')
+}
+.deal_2
+{
+    background-Image:url('../public/images/banner/b10.jpg')
+}
+.detail-1{
+    background-Image:url('../public/images/banner/b4.jpg')
+}
+.detail-2{
+    background-Image:url('../public/images/banner/b7.jpg')
+}
+.detail-3{
+    background-Image:url('../public/images/banner/b18.jpg')
+}
+.sign,.shop{
+    background-Image:url('../public/images/banner/b1.jpg')
+}
+
+.scroll h3{
+    animation: scrolling 15s linear infinite;
+    -webkit-animation: scrolling 15s linear infinite;
+}
+@keyframes scrolling{
+    0%{
+        transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        -moz-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+        -o-transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+}
+}
+.active{
+    color:#088178
+}
+.active:before{
+    width:60%
+}
